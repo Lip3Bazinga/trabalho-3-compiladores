@@ -1,0 +1,13 @@
+{
+  "name": "Compiladores C (Flex/Bison)",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y flex bison make gcc",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}
